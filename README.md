@@ -1,11 +1,11 @@
-# cache-map.js
+# cache-map
 
 A simple key/value pair caching system
 
 ### Example
 
 ```ts
-import CacheMap from 'cache-map.js';
+import CacheMap from 'cache-map';
 
 const cache = new CacheMap<string, string>({ ttl: 1000 * 60, maxKeys: 2 });
 cache.set('first', 'I will expire in 60 seconds!');

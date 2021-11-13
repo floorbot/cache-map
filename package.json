@@ -1,0 +1,27 @@
+{
+    "name": "cache-map.js",
+    "version": "1.0.0",
+    "description": "A simple key/value pair caching system",
+    "main": "dist/index.js",
+    "types": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/floorbot/cache-map.js.git"
+    },
+    "keywords": [],
+    "author": "Arcadeena",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/floorbot/cache-map.js/issues"
+    },
+    "homepage": "https://github.com/floorbot/cache-map.js#readme",
+    "devDependencies": {
+        "@types/node": "^16.3.2",
+        "typescript": "^4.4.4"
+    }
+}
